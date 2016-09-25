@@ -1,16 +1,13 @@
-/* 
-    min, max of 2 numbers
-    
-*/
-
 
 public class Solution
 {
-    public static void main(String[] args)
+    public static void main(String[] args) 
     {
         System.out.println(minOf3numbers(5,3,6));
+        print3("Qwerty");
+        print3InOneLine("WERT");
     }
-
+//--------------Методы--------------------------------------------------------
         public static int min (int a, int b){
             if (a < b) return a;
             else return b;
@@ -33,5 +30,14 @@ public class Solution
             int min2 = min(c, d);
             min = min(min, min2);
             return min;
+        }
+
+        public static void print3(String s){
+            for (int i = 0; i < 3; i++) System.out.println(s);
+        }
+
+        public static void print3InOneLine(String s){
+            for (int i = 0; i < 3; i++) System.out.print(s+" ");
+            System.out.println();
         }
 }
