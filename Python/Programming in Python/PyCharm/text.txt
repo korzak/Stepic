@@ -1,0 +1,6 @@
+I'm attempting to create an effect similar to the one found in this video:
+https://www.youtube.com/watch?v=1i0da_Pg5Jc
+
+However, with verbatim code it does not function as demonstrated. I'm not sure if it's changes in unity or failure on my part but I'm using the same shader, and probably have watched this video like.. Oh Idk, 2501 times.. and I can't does it.
+
+The best I can do is back and forth, Time.time does not work for me.
