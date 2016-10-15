@@ -1,12 +1,16 @@
 '''
+Напишите программу, которая считывает из файла строку, соответствующую тексту, сжатому с помощью кодирования повторов,
+и производит обратную операцию, получая исходный текст.
+
+Запишите полученный текст в файл
+
 Sample Input:
 a3b4c2e10b1
+
 Sample Output:
 aaabbbbcceeeeeeeeeeb
+
 '''
-# def isint(value):
-#       int(value)
-#      return True
 
 with open('out.txt') as file:
     s = file.readline().strip()

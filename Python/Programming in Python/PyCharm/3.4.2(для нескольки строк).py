@@ -1,7 +1,7 @@
 stringforletters = ''  # Создаем пустую переменую строку где будут хранится наши буквы
-stringfornumbers = ''  # Создаем пустую переменую строку где будут хранится наши цифры
+stringfornumbers = ''  # Создаем пустую переменую строку где будут хранится наши цифрыr
 i = 0
-with open('dataset_3363_2.txt', 'r') as inf:
+with open('out.txt', 'r') as inf:
     for line in inf:
         result = ''  # Сюда запишем результат и с каждой новой строки эта переменная опять становится пустой
 
@@ -22,3 +22,4 @@ with open('dataset_3363_2.txt', 'r') as inf:
 
 with open('outputfile.txt', 'w') as outf:
     outf.write(result)  # Записываем результат в наш файл
+
