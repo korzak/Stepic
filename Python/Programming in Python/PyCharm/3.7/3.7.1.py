@@ -32,5 +32,5 @@ for i in range(n): #Перебираем все матчи
 
 for key in teams: #перебираем все ключи(команды)
     lst = teams[key] #lst присваем значение по ключу, то есть список
-    lst_2 = [sum([lst[i + j] for j in range(0, len(lst), 5)]) for i in range(5)]
+    lst_2 = [sum([lst[i + j] for j in range(0, len(lst), 5)]) for i in range(5)] #РАЗОБРАТЬ
     print(key + ':' + str(lst_2[0]), lst_2[1], lst_2[2], lst_2[3], lst_2[4])
